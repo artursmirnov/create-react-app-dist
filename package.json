@@ -1,0 +1,31 @@
+{
+  "name": "create-react-app-dist",
+  "version": "0.0.1",
+  "description": "CLI tool to deploy CRA-based apps to AWS S3",
+  "main": "index.js",
+  "bin": {
+    "cra-dist": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artursmirnov/create-react-app-dist.git"
+  },
+  "keywords": [
+    "react",
+    "cra",
+    "create-react-app",
+    "deploy",
+    "s3",
+    "dist",
+    "aws",
+    "spa"
+  ],
+  "author": {
+    "name": "Artur Smirnov",
+    "email": "mail@artursmirnov.com"
+  },
+  "license": "MIT"
+}
