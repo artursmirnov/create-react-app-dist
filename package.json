@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-dist",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CLI tool to deploy CRA-based apps to AWS S3",
   "main": "index.js",
   "bin": {
