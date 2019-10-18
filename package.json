@@ -6,9 +6,7 @@
   "bin": {
     "cra-dist": "./index.js"
   },
-  "scripts": {
-    "postinstall": "cra-dist init"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/artursmirnov/create-react-app-dist.git"
@@ -29,10 +27,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.550.0",
     "chalk": "^2.4.2",
     "commander": "^3.0.2",
+    "dotenv": "^8.2.0",
     "fs-extra": "^8.1.0",
-    "git-repo-info": "^2.1.0"
+    "git-repo-info": "^2.1.0",
+    "s3-node-client": "^4.4.4"
   }
 }
